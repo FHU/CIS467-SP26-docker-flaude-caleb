@@ -5,12 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Flaude – Confidently Wrong, Every Time™</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap"
-    rel="stylesheet" />
-
   <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -48,7 +42,7 @@
     <a href="#testimonials">Reviews</a>
     <a href="#plans">Pricing</a>
     <a href="#">Sign in</a>
-    <a href="#" style="color: var(--accent-coral); font-weight:600;">Try Flaude →</a>
+    <a href="#" class="mobile-menu-highlight">Try Flaude →</a>
   </div>
 
   <!-- HERO -->
@@ -77,6 +71,7 @@
         </svg>
       </a>
       <a href="#capabilities" class="btn btn-ghost btn-lg">See what Flaude gets wrong</a>
+      <a href="/dashboard" class="btn btn-ghost btn-lg">Go to Dashboard</a>
     </div>
 
     <p class="hero-note">No accuracy required &nbsp;·&nbsp; Hallucinations included at no extra charge</p>
@@ -109,7 +104,7 @@
             <div class="confidence-bar">
               <span>Confidence</span>
               <div class="confidence-fill">
-                <div class="confidence-fill-inner" style="width:97%"></div>
+                <div class="confidence-fill-inner confidence-97"></div>
               </div>
               <span>97%</span>
             </div>
@@ -128,7 +123,7 @@
             <div class="confidence-bar">
               <span>Confidence</span>
               <div class="confidence-fill">
-                <div class="confidence-fill-inner" style="width:99%"></div>
+                <div class="confidence-fill-inner confidence-99"></div>
               </div>
               <span>99%</span>
             </div>
@@ -267,9 +262,9 @@
   <!-- TESTIMONIALS -->
   <section id="testimonials" class="testimonials-section">
     <div class="testimonials-inner">
-      <div class="reveal" style="text-align:center;">
-        <p class="section-label" style="text-align:center;">What our users say</p>
-        <h2 class="section-title" style="max-width:100%; text-align:center;">Beloved by users who have low standards
+      <div class="reveal text-center">
+        <p class="section-label text-center">What our users say</p>
+        <h2 class="section-title section-title-full text-center">Beloved by users who have low standards
         </h2>
       </div>
 
@@ -319,9 +314,9 @@
   <!-- PLANS -->
   <section id="plans" class="plans-section">
     <div class="plans-inner">
-      <div class="reveal" style="text-align:center;">
-        <p class="section-label" style="text-align:center;">Plans &amp; Pricing</p>
-        <h2 class="section-title" style="max-width:100%; text-align:center;">Pay us to confuse you</h2>
+      <div class="reveal text-center">
+        <p class="section-label text-center">Plans &amp; Pricing</p>
+        <h2 class="section-title section-title-full text-center">Pay us to confuse you</h2>
       </div>
 
       <div class="plans-grid">
@@ -337,17 +332,17 @@
             <li>Plausible-sounding nonsense</li>
             <li>One (1) correct answer per month*</li>
           </ul>
-          <a href="#" class="btn btn-plan-ghost btn-lg" style="width:100%; justify-content:center;">Start getting it
+          <a href="#" class="btn btn-plan-ghost btn-lg btn-full">Start getting it
             wrong</a>
-          <p style="font-size:11px; color:var(--text-muted); margin-top:12px; text-align:center;">*Correct answer timing
+          <p class="plan-note">*Correct answer timing
             unpredictable. May occur at 3am.</p>
         </div>
 
         <!-- Pro -->
         <div class="plan-card featured reveal">
           <div class="plan-badge">Most Confidently Wrong</div>
-          <div class="plan-name" style="color:#fff;">Flaude Pro</div>
-          <div class="plan-price" style="color:#fff;">$20 <span>/ month</span></div>
+          <div class="plan-name plan-light-text">Flaude Pro</div>
+          <div class="plan-price plan-light-text">$20 <span>/ month</span></div>
           <p class="plan-desc">For power users who need to be wrong more frequently and with greater eloquence.</p>
           <ul class="plan-features">
             <li>Unlimited wrong answers</li>
@@ -357,14 +352,13 @@
             <li>Priority support (response may be incorrect)</li>
             <li>Exclusive: answers in iambic pentameter</li>
           </ul>
-          <a href="#" class="btn btn-plan-light btn-lg" style="justify-content:center;">Upgrade to Pro (we recommend
+          <a href="#" class="btn btn-plan-light btn-lg btn-centered">Upgrade to Pro (we recommend
             this)</a>
         </div>
       </div>
 
-      <p class="reveal" style="text-align:center; margin-top:28px; font-size:14px; color:var(--text-muted);">
-        Need Flaude for your whole team? <a href="#"
-          style="color:var(--accent-coral); text-decoration:none; font-weight:500;">Explore Flaude Enterprise — now with
+      <p class="reveal team-note">
+        Need Flaude for your whole team? <a href="#" class="team-link">Explore Flaude Enterprise — now with
           group confusion →</a>
       </p>
     </div>
@@ -397,7 +391,7 @@
             <span class="footer-logo-text">Flaude</span>
           </div>
           <p class="footer-tagline">An AI assistant from Anthrohopic™, built to be maximally confident and minimally
-            accurate. Established 1842.*<br><br><small style="opacity:.5">*This is incorrect. Flaude wrote this.</small>
+            accurate. Established 1842.*<br><br><small class="muted-small">*This is incorrect. Flaude wrote this.</small>
           </p>
         </div>
 
